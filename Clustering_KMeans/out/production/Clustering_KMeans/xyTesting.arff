@@ -1,0 +1,15 @@
+@RELATION location
+
+@ATTRIBUTE x integer
+@ATTRIBUTE y integer
+@ATTRIBUTE result {"0","1","2","3","4","5","6","7","8","9","10","11","12","13","14"}
+
+@DATA
+664159,550946, "13"
+465845,57965, "2"
+597173,575538, "13"
+735920,808254, "3"
+%The following is a wrong cluster.
+597170,575530, "2"
+5975170,5755530, "14"
+
